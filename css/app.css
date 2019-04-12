@@ -1,0 +1,92 @@
+/*
+	BASIC STYLES
+*/
+body{
+	/*overflow: hidden;*/
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 600;
+}
+
+
+
+
+/*
+	FLEX BOX
+*/
+.d-f{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.f-jc{
+	justify-content: center;
+}
+.f-jc-ac{
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+
+
+/*
+	NAVIGATION
+*/
+.header{
+	position: fixed;
+	background-color: royalblue;
+	height: 100px;
+	width: 100vw;
+	top: 0;
+}
+
+
+/*
+	MAIN PAGE
+*/
+#main{
+	width: 100vw;
+	height: 100vh;
+	background-color: teal;
+}
+.middle-part{
+	width: 80%;
+	padding-top: 100px; 
+}
+.rating{
+	padding: 0;
+	margin: 0;
+}
+.rating li{
+	display: inline-block;
+	/*margin-left: 5px;*/
+}
+.rating li i {
+	font-size: 12px;
+}
+.left-part{
+	background-color: red;
+	height: 100%;
+	width: 10%;
+}
+.right-part{
+	background-color: red;
+	height: 100%;
+	flex: 1;
+}
+
+
+
+/*
+	FOOTER
+*/
+.footer{
+	position: fixed;
+	background-color: royalblue;
+	height: 150px;
+	width: 100vw;
+	bottom: 0;
+}
